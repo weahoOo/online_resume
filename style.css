@@ -1,0 +1,91 @@
+body {
+    background-color: #063970; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.resume {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-family: Courier, Monospace;
+}
+
+
+/* Headers */
+header {
+    margin-bottom: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 30%; 
+    height: auto;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #000000;
+    font-weight: bold;
+}
+
+h3.year {
+    text-align: left;
+}
+
+p.obj {
+    text-align: center;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    gap: 20px; /* Add spacing between columns */
+}
+
+/* List styling */
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.skills li {
+    background-color: #e7e7e7;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+    p, li {
+        font-size: 1rem;
+    }
+    .skills {
+        margin-bottom: 10px;
+    }
+}
